@@ -1,0 +1,10 @@
+// var -> function
+
+// let -> block-scoped variable
+function sayHello () {
+ for (var i = 0; i < 5; i++) {
+   console.log("Hello, World!");
+ }  
+}
+
+sayHello();
